@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import SimpleComponent from "./components/SimpleComponent";
+import ButtonLogRandom from "./components/ButtonLogRandom";
+import SimpleButtonCounter from "./components/SimpleButtonCounter";
+import DisplayButtonCounter from "./components/DisplayCounterApp/DisplayButtonCounter";
+import "./styles/default.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>React Testing Components</h1>
+      <SimpleComponent />
+      <ButtonLogRandom />
+      <SimpleButtonCounter />
+      <DisplayButtonCounter />
     </div>
   );
 }

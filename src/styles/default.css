@@ -1,0 +1,11 @@
+.component {
+  border: 2px solid black;
+  margin: 8px;
+  padding: 5px;
+}
+
+.subComponent {
+  border: 1px dotted gray;
+  margin: 4px;
+  padding: 5px;
+}
